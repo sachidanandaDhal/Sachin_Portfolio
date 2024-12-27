@@ -1,67 +1,72 @@
 function About() {
   return (
-    <div className="max-w-screen-2xl container mx-auto px-2 md:px-20 my-16 mt-6">
-      <div className="">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">About Me</h1>
-        <p className="text-gray-700 text-lg mb-6">
-          Hi, I’m <span className="font-semibold">Sachidananda Dhal</span>, a
-          passionate Frontend Developer with over 2 years of experience based in
-          Bhubaneshwar, India. I specialize in creating responsive and
-          user-friendly web applications using modern technologies.
+    <div
+      name="About"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+    >
+      <div>
+        <h1 className="text-3xl font-bold mb-5">About</h1>
+        <p>
+          Hello, Im Akhil, a passionate Web developer with a keen eye for MERN
+          Stack . With a background in IT, I strive to create impactful and
+          visually stunning Software solutions that leave a lasting impression.
         </p>
-
-        <h2 className="text-2xl font-semibold text-gray-800 mb-3">Skills</h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>Proficient in React, Tailwind CSS, and JavaScript.</li>
-          <li>
-            Experience in backend development with Node.js, Go, MongoDB, and
-            SQL.
-          </li>
-          <li>Skilled in JWT authentication and developing secure APIs.</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold text-gray-800 mb-3">Education</h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>MCA from GIET University.</li>
-          <li>BSc in ITM from Bhadrak Autonomous College.</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold text-gray-800 mb-3">Projects</h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>Car Insurance Management System.</li>
-          <li>Employee Forms Management Application.</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold text-gray-800 mb-3">
-          Certifications
-        </h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>React.js Essential Training - LinkedIn Learning.</li>
-        </ul>
-
-        <h2 className="text-2xl font-semibold text-gray-800 mb-3">Contact</h2>
-        <p className="text-gray-700 mb-2">Email: sachidanandadhal1@gmail.com</p>
-        <p className="text-gray-700 mb-2">Phone: +91 8018199406</p>
-        <p className="text-gray-700 mb-2">
-          GitHub:{" "}
-          <a
-            href="https://github.com/sachidanandaDhal"
-            className="text-blue-500 hover:underline"
-          >
-            github.com/sachidanandaDhal
-          </a>
-        </p>
-        <p className="text-gray-700">
-          LinkedIn:{" "}
-          <a
-            href="https://www.linkedin.com/in/sachidananda-dhal-877b87238/"
-            className="text-blue-500 hover:underline"
-          >
-            linkedin.com/in/sachidananda-dhal
-          </a>
+        <br />
+        <h1 className="text-green-600 font-semibold text-xl">
+          Education & Training
+        </h1>
+        <span>
+          [Degree/Certification], [Institution], [Year] [Degree/Certification],
+          [Institution], [Year] [Relevant Course], [Platform/Institution],
+          [Year]
+        </span>
+        <br />
+        <br />
+        <h1 className="text-green-600 font-semibold text-xl">
+          Skills & Expertise
+        </h1>
+        <span>
+          Proficient in [Programming Languages] Experienced with [Software
+          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
+          Excellent problem-solving skills Effective communicator and
+          collaborator
+        </span>
+        <br />
+        <br />
+        <h1 className="text-green-600 font-semibold text-xl">
+          Professional Experience
+        </h1>
+        <span>
+          [Job Title], [Company/Organization], [Dates] [Brief description of
+          responsibilities and achievements] [Job Title],
+          [Company/Organization], [Dates] [Brief description of responsibilities
+          and achievements] [Freelance/Contract Work], [Client/Organization],
+          [Dates] [Brief description of projects and contributions]
+        </span>
+        <br />
+        <br />
+        <h1 className="text-green-600 font-semibold text-xl">
+          Achievements & Awards
+        </h1>
+        <span>
+          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
+          [Organization/Platform], [Year]
+        </span>
+        <br />
+        <br />
+        <h1 className="text-green-600 font-semibold text-xl">
+          Mission Statement
+        </h1>
+        <p>
+          My mission is to leverage my skills and creativity to deliver
+          innovative [Your Field] solutions that exceed client expectations and
+          contribute positively to the digital landscape. I am committed to
+          continuous learning and growth, always seeking new challenges and
+          opportunities to expand my horizons.
         </p>
       </div>
     </div>
   );
 }
+
 export default About;

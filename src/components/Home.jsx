@@ -8,7 +8,7 @@ import pic from "../assets/bubuPs.png";
 function Home() {
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 mt-6">
+      <div name="Home" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 mt-6">
         <div className="flex flex-col md:flex-row">
           {/* Text Content */}
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-6 order-2 md:order-1">

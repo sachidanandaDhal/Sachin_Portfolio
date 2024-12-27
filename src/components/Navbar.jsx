@@ -2,6 +2,7 @@ import pic from "../assets/bubuPs.png";
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -31,7 +32,15 @@ function Navbar() {
         <div className="hidden md:flex space-x-8">
           {navItems.map(({ id, text }) => (
             <li className="list-none hover:scale-105 duration-200 cursor-pointer" key={id}>
-              {text}
+            <Link
+                    to={text}
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    activeClass="active"
+                  >
+                    {text}
+                  </Link>
             </li>
           ))}
         </div>
@@ -52,7 +61,16 @@ function Navbar() {
                 key={id}
                 onClick={() => setMenu(false)} // Close menu on selection
               >
-                {text}
+                <Link
+                    onClick={() => setMenu(!menu)}
+                    to={text}
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    activeClass="active"
+                  >
+                    {text}
+                  </Link>
               </li>
             ))}
           </ul>
