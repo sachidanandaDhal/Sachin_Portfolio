@@ -24,10 +24,7 @@ function Home() {
               />
             </div>
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Repudiandae non expedita minima aspernatur voluptates a, itaque
-              voluptatibus excepturi rerum! Praesentium fuga provident impedit
-              quo, eveniet consequatur laudantium quas repellendus numquam?
+            Hello! I’m Sachidananda Dhal, a Frontend Developer with 2+ years of experience specializing in React and Tailwind CSS. From dynamic interfaces to robust backend integrations with Node.js and SQL, I bring ideas to life on the web.
             </p>
 
             {/* Social Media Section */}

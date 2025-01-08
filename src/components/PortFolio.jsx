@@ -1,4 +1,4 @@
-import java from "../assets/java.png";
+import Go from "../assets/Go.png";
 import python from "../assets/python.webp";
 import mongoDB from "../assets/mongodb.jpg";
 import express from "../assets/express.png";
@@ -34,8 +34,8 @@ function PortFolio() {
       },
       {
         id: 6,
-        logo: java,
-        name: "Java",
+        logo: Go,
+        name: "Go",
       },
     ];
     return (
