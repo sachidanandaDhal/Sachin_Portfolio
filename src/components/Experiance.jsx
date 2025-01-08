@@ -1,16 +1,17 @@
 import html from "../assets/html.png";
 import css from "../assets/css.jpg";
-import java from "../assets/java.png";
+import Go from "../assets/Go.png";
 import javascript from "../assets/javascript.png";
-import oracle from "../assets/oracle.png";
-import spring from "../assets/spring.png";
-import springBoot from "../assets/springBoot.jpg";
+import reactjs from "../assets/reactjs.png";
+import mongoDB from "../assets/mongodb.jpg";
+import express from "../assets/express.png";
+import TailwindCSS from "../assets/TailwindCSS.png";
 function Experiance() {
   const cardItem = [
     {
       id: 1,
       logo: html,
-      name: "MongoDB",
+      name: "HTML",
     },
     {
       id: 2,
@@ -19,28 +20,33 @@ function Experiance() {
     },
     {
       id: 3,
-      logo: java,
-      name: "Java",
+      logo: Go,
+      name: "Go",
     },
     {
       id: 4,
       logo: javascript,
-      name: "JavaScript",
+      name: "javascript",
     },
     {
       id: 5,
-      logo: oracle,
-      name: "Oracle",
+      logo: reactjs,
+      name: "React",
     },
     {
       id: 6,
-      logo: spring,
-      name: "Spring",
+      logo: mongoDB,
+      name: "MongoDB",
     },
     {
       id: 7,
-      logo: springBoot,
-      name: "Spring Boot",
+      logo: express,
+      name: "Express",
+    },
+    {
+      id: 8,
+      logo: TailwindCSS,
+      name: "TailwindCSS",
     },
   ];
   return (
