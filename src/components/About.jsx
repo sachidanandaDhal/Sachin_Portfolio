@@ -15,7 +15,7 @@ function About() {
           <h2 className="text-green-600 font-semibold text-2xl mb-4">Education & Training</h2>
           <ul className="list-disc pl-5 space-y-2 text-gray-700">
             <li>
-              <strong>MCA</strong>, GIET University, Bangalore (2023 - 2024)  
+              <strong>MCA</strong>, GIET University, Bangalore (2021 - 2023)  
               <br /> Secured distinction in final-year projects involving web application development.
             </li>
             <li>
@@ -54,7 +54,7 @@ function About() {
           <div className="space-y-6 text-gray-700">
             <div>
               <h3 className="font-bold">Junior Associate - Engineering</h3>
-              <span>Annalect India (2023 - Present)</span>
+              <span>Annalect India (2023 - July 2024)</span>
               <ul className="list-disc pl-5 mt-2">
                 <li>Developed responsive frontend applications using React and Tailwind CSS.</li>
                 <li>Implemented JWT-based authentication for secure access management.</li>
